@@ -18,7 +18,7 @@ window.addEventListener("load", function() {
 	});
 
 	document.querySelector("#slower").addEventListener("click", function() {
-		video.playbackRate *= 0.9; // Slow down by 10%
+		video.playbackRate *= 0.9; 
 		console.log("New speed is " + video.playbackRate);
 	});
 
